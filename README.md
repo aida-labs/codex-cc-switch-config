@@ -23,7 +23,7 @@ ccswitch://v1/import?resource=provider&app=codex&name=Aida%20Labs&endpoint=https
 | 配置项 | 值 | 作用 |
 |---|---|---|
 | `model` | `SWE-2` | 默认模型，可用 `GET /v1/models` 查全部可用模型 |
-| `model_provider` | `aidalabs` | 指向下面的 `[model_providers.aidalabs]` 块 |
+| `model_provider` | `custom` | 指向下面的 `[model_providers.custom]` 块 |
 | `wire_api` | `responses` | 使用 OpenAI Responses API（中转站要求） |
 | `model_reasoning_effort` | `medium` | 默认推理强度，可选 low/medium/high/xhigh |
 | `model_reasoning_summary` | `auto` | 推理摘要展示方式 |

@@ -5,7 +5,7 @@
 # 本模板走 config.toml 内 experimental_bearer_token，二者取一即可。
 
 model = "SWE-2"
-model_provider = "aidalabs"
+model_provider = "custom"
 wire_api = "responses"
 model_reasoning_effort = "medium"
 model_reasoning_summary = "auto"
@@ -16,7 +16,7 @@ disable_response_storage = true
 sandbox_mode = "workspace-write"
 approval_policy = "on-request"
 
-[model_providers.aidalabs]
+[model_providers.custom]
 name = "Aida Labs"
 base_url = "https://api.lsidestudio.com/v1"
 model_catalog_url = "https://api.lsidestudio.com/v1/models"
