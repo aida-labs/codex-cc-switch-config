@@ -4,7 +4,7 @@
 # cc-switch deeplink 一键导入产出的是官方固定模板（key 进 auth.json），
 # 本模板走 config.toml 内 experimental_bearer_token，二者取一即可。
 
-model = "SWE-2"
+model = "gpt-6.1-so"
 model_provider = "custom"
 wire_api = "responses"
 model_reasoning_effort = "medium"
