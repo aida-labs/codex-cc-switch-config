@@ -22,14 +22,12 @@ ccswitch://v1/import?resource=provider&app=codex&name=Aida%20Labs&endpoint=https
 
 | 配置项 | 值 | 作用 |
 |---|---|---|
-| `model` | `SWE-2` | 默认模型，可用 `GET /v1/models` 查全部可用模型 |
+| `model` | `gpt-6.1-sol` | 默认模型，可用 `GET /v1/models` 查全部可用模型 |
 | `model_provider` | `custom` | 指向下面的 `[model_providers.custom]` 块 |
 | `wire_api` | `responses` | 使用 OpenAI Responses API（中转站要求） |
 | `model_reasoning_effort` | `medium` | 默认推理强度，可选 low/medium/high/xhigh |
 | `model_reasoning_summary` | `auto` | 推理摘要展示方式 |
 | `model_verbosity` | `high` | 输出详细度 |
-| `model_context_window` | `1000000` | 上下文窗口大小（影响用量显示与自动压缩判断） |
-| `model_auto_compact_token_limit` | `900000` | 触发自动压缩的 token 阈值 |
 | `disable_response_storage` | `true` | 禁止 Codex 存储响应内容 |
 | `sandbox_mode` | `workspace-write` | 沙箱策略：仅可写当前工作区 |
 | `approval_policy` | `on-request` | 越权操作时请求批准 |
